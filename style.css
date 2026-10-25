@@ -1,0 +1,21 @@
+:root { --teal: #0F6E66; --gold: #F2C14E; --text: #1C2B29; --muted: #51605E; --bg: #F6F4EF; --card: #fff; --line: #E3DED3; }
+* { box-sizing: border-box; }
+body { margin: 0; font: 18px/1.65 "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--text); background: var(--bg); }
+header { background: var(--teal); color: #fff; padding: 28px 16px 24px; }
+header a { color: #fff; text-decoration: none; }
+.wrap { max-width: 760px; margin: 0 auto; }
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 22px; }
+.brand img { width: 44px; height: 44px; border-radius: 12px; border: 2px solid rgba(255,255,255,.6); }
+h1 { font-size: 30px; line-height: 1.25; margin: 16px 0 4px; }
+.sub { opacity: .85; margin: 0; }
+main { padding: 16px; }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+h2 { font-size: 22px; margin: 0 0 8px; color: var(--teal); }
+table { width: 100%; border-collapse: collapse; font-size: 16px; }
+th, td { text-align: left; vertical-align: top; padding: 8px; border-top: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; }
+.note { border-left: 4px solid var(--gold); padding: 8px 12px; background: #FFF8E6; border-radius: 8px; }
+ol li, ul li { margin: 6px 0; }
+a { color: var(--teal); }
+footer { color: var(--muted); font-size: 15px; padding: 8px 16px 40px; }
+@media (max-width: 560px) { table, tbody, tr, th, td { display: block; } tr { border-top: 1px solid var(--line); padding: 6px 0; } th, td { border: 0; padding: 2px 0; } thead { display: none; } }
